@@ -40,7 +40,7 @@ tar -xf /tmp/rootfs.tar.gz -C $ROOTFS_DIR
 ;;
 2)
 wget –tries=$max_retries –timeout=$timeout –no-hsts -O /tmp/rootfs.tar.gz \
-“https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86_64/alpine-minirootfs-3.18.3-${ARCH}.tar.gz”
+“https://dl-cdn.alpinelinux.org/v3.21/releases/x86_64/alpine-minirootfs-3.21.0-${ARCH}.tar.gz”
 tar -xf /tmp/rootfs.tar.gz -C $ROOTFS_DIR
 ;;
 *)
